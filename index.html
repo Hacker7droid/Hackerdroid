@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Protected Website</title>
+    <link rel="stylesheet" type="text/css" href="styl.css">
+    <link rel="stylesheet" type="text/css" href="styl.css">
+  </head>
+  <body>
+    <style>
+      body {
+  font-family: cursive;
+  background-color: #c2fbd7;
+}
+
+.container {
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: px solid #ccc;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+}
+button{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: grey;
+}
+
+#message {
+  color: red;
+  margin-top: 10px;
+}
+.but{
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.btx{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+    </style>
+    
+    <div class="container">
+      <center><img src="https://cdn.dribbble.com/users/1106511/screenshots/3276327/lockunlock_conv-2.gif" alt="" height="100px"></center>
+      <h1>Enter password</h1>
+      <input type="password" id="password" placeholder="Enter password">
+      <button onclick="login()">Submit</button><p></p>
+    <a class="btx" href="">Get Password</a>
+    
+    <script>
+      function login() {
+  var password = document.getElementById('password').value;
+  if (password === '12345') {
+    // Redirect to the backend or another page
+    window.location.href = 'backend.html';
+  } else {
+    document.getElementById('message').textContent = 'Invalid password.';
+  }
+}
+    </script>
+  </body>
+</html>
