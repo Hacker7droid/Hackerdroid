@@ -1,0 +1,32 @@
+Modern phishing tool Hidden Eye
+🔗 Link: https://github.com/DarkSecDevelopers/HiddenEye
+
+Complete phishing tool 32 templates + 1 customizable
+🔗 Link: https://github.com/thelinuxchoice/blackeye
+
+Social media phishing with ShellPhish
+🔗 Link: https://github.com/thelinuxchoice/shellphish
+
+Advance Phishing OTP Bypass
+🔗 Link: https://github.com/Ignitetch/AdvPhishing
+
+Paytm Phishing OTP Bypass
+🔗 Link: https://github.com/Ignitetch/Paytm-Phishing
+
+UberEats Phishing OTP Bypass
+🔗 Link: https://github.com/Ignitetch/UberEats-Phishing
+
+WhatsApp Phishing
+🔗 Link: https://github.com/Ignitetch/whatsapp-phishing
+
+Zomato Phishing
+🔗 Link: https://github.com/Ignitetch/Zomato-Phishing
+
+Hotstar OTP Bypass
+🔗 Link: https://github.com/Ignitetch/Hotstar-otp-bypass
+
+Ola OTP Bypass
+🔗 Link: https://github.com/Ignitetch/ola-otpbypass
+
+Amazon Payment Gateway Phishing
+🔗 Link: https://github.com/Ignitetch/Amazon-payment-gateway-phishing
